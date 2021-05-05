@@ -11,18 +11,21 @@
 
     <link rel="canonical" href="{{ page.url | absolute_url }}">
     <link rel="shortcut icon" href="/assets/images/icon-96.png">
+    <link rel="stylesheet" href="/assets/css/default.css?{{site.time | date: '%s'}}"/>
 
-    <link rel="stylesheet" href="/assets/css/default.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/atom-one-dark.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
 </head>
 <body>
 
 <header>
-    <div style="display: flex;margin-right: 96px;min-height: 60px;align-items: center;flex-wrap: wrap;">
-        <a href="/" style="; min-width: 200px">Cavensio</a>
-        <!--div id="search" style="flex: 2 0 auto; min-width: 300px">
-            <script async src="https://cse.google.com/cse.js?cx=58f7c0f790c204ed6"></script>
-            <div class="gcse-searchbox"></div>
-        </div-->
+    <div id="title">
+        <a href="/">Cavensio</a>
+        <div style="text-align: right;">German quality
+            <br/> <small> for the price of the Aliexpress</small>
+        </div>
     </div>
     <hr/>
     <div id="tags">

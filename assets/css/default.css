@@ -79,18 +79,27 @@ header a:hover {
 header hr {
     height: 5px;
     background: linear-gradient(90deg,
-    gray 0px,
-    gray 95px,
+    limegreen 0px,
+    limegreen 95px,
     black 100px,
     black 120px,
     red 125px,
     red 145px,
     gold 150px,
     gold 170px,
-    gray 175px,
-    gray 80%,
+    limegreen 175px,
+    limegreen 80%,
     transparent 90%
     );
+}
+
+header #title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    margin-right: 96px;
+    min-height: 72px;
 }
 
 ul {
