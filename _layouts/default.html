@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <link rel="shortcut icon" href="/assets/icon-96.png">
+    <link rel="shortcut icon" href="/assets/images/icon-96.png">
 
     <link rel="stylesheet" href="/assets/css/default.css"/>
 </head>
@@ -26,7 +26,7 @@
     </div>
     <hr/>
     <div id="tags">
-        #{{ page.tags | join: ", " }}
+        # {{ page.tags | join: ", " }}
         <span style="float:right">{{ page.date | default: site.time | date: "%Y-%m-%d"  }}</span>
     </div>
 

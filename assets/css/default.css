@@ -51,7 +51,7 @@ code {
 }
 
 header {
-    background-image: url("/assets/images/cavensio-icon-80.png");
+    background-image: url("/assets/images/icon-96.png");
     background-position: right top;
     background-repeat: no-repeat;
 }
@@ -79,16 +79,16 @@ header a:hover {
 header hr {
     height: 5px;
     background: linear-gradient(90deg,
-    dodgerblue 0px,
-    dodgerblue 95px,
-    red 100px,
-    red 120px,
-    gold 125px,
-    gold 145px,
-    limegreen  150px,
-    limegreen  170px,
-    dodgerblue 175px,
-    dodgerblue 80%,
+    gray 0px,
+    gray 95px,
+    black 100px,
+    black 120px,
+    red 125px,
+    red 145px,
+    gold 150px,
+    gold 170px,
+    gray 175px,
+    gray 80%,
     transparent 90%
     );
 }
