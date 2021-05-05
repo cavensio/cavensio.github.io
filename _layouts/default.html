@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--{{site.time | date: '%Y-%m-%d %H:%M'}}-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.desc }}">
+    <meta name="keywords" content="{{ page.tags | join: ', ' }}">
+    <meta name="author" content="Cavensio">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+
+    <link rel="stylesheet" href="/assets/css/default.css"/>
+</head>
+<body>
+
+<header>
+    <div style="display: flex;margin-right: 100px;min-height: 60px;align-items: center;flex-wrap: wrap;">
+        <a href="/" style="; min-width: 200px">Cavensio</a>
+        <!--div id="search" style="flex: 2 0 auto; min-width: 300px">
+            <script async src="https://cse.google.com/cse.js?cx=58f7c0f790c204ed6"></script>
+            <div class="gcse-searchbox"></div>
+        </div-->
+    </div>
+    <hr/>
+    <div id="tags">
+        # {{ page.tags | join: ", " }}
+        <span style="float:right">{{ page.date | default: site.time | date: "%Y-%m-%d"  }}</span>
+    </div>
+
+</header>
+
+{{ content }}
+
+<footer>
+    &copy; 2019-2021 <a href="mailto:xantorohara@gmail.com"> Cavensio, Xantorohara </a>
+</footer>
+
+</body>
+</html>

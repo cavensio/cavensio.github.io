@@ -1,0 +1,17 @@
+url: https://cavensio.github.io
+
+defaults:
+  - scope:
+      type: posts
+    values:
+      layout: post
+      permalink: /:title
+
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable : true
+
+plugins:
+  - jekyll-sitemap
+  
