@@ -69,7 +69,10 @@ header a {
     display: block;
 }
 
-header a:link {
+header a:link,
+header a:active,
+header a:visited,
+header a:hover {
     color: black;
 }
 
@@ -98,7 +101,7 @@ ul {
 }
 
 #tags {
-    margin: 10px;
+    margin: 10px 0;
     font-size: 14px;
     font-family: Consolas, "Lucida Console", monospace;
 }

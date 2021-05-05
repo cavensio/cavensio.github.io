@@ -10,14 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="canonical" href="{{ page.url | absolute_url }}">
-    <link rel="shortcut icon" href="/assets/favicon/favicon.ico">
+    <link rel="shortcut icon" href="/assets/icon-96.png">
 
     <link rel="stylesheet" href="/assets/css/default.css"/>
 </head>
 <body>
 
 <header>
-    <div style="display: flex;margin-right: 100px;min-height: 60px;align-items: center;flex-wrap: wrap;">
+    <div style="display: flex;margin-right: 96px;min-height: 60px;align-items: center;flex-wrap: wrap;">
         <a href="/" style="; min-width: 200px">Cavensio</a>
         <!--div id="search" style="flex: 2 0 auto; min-width: 300px">
             <script async src="https://cse.google.com/cse.js?cx=58f7c0f790c204ed6"></script>
@@ -26,7 +26,7 @@
     </div>
     <hr/>
     <div id="tags">
-        # {{ page.tags | join: ", " }}
+        #{{ page.tags | join: ", " }}
         <span style="float:right">{{ page.date | default: site.time | date: "%Y-%m-%d"  }}</span>
     </div>
 
@@ -35,7 +35,7 @@
 {{ content }}
 
 <footer>
-    &copy; 2019-2021 <a href="mailto:xantorohara@gmail.com"> Cavensio, Xantorohara </a>
+    &copy; 2021 <a href="mailto:xantorohara@gmail.com"> Cavensio </a>
 </footer>
 
 </body>
