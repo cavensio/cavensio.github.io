@@ -1,5 +1,5 @@
 # Cavensio
 
-Cave ventilation system
+Cave ventilation system.
 
-See [https://cavensio.github.io/](Cavensio) site.
+See [Cavensio](https://cavensio.github.io/) site.
