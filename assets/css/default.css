@@ -109,6 +109,10 @@ ul {
 #content {
 }
 
+#content img {
+    max-width: 100%;
+}
+
 #tags {
     margin: 10px 0;
     font-size: 14px;
