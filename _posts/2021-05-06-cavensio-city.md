@@ -2,15 +2,18 @@
 title: Cavensio-city
 tags: [Arduino, Radio, RF24]
 desc: Ventilation in a city apartment
-date: 2021-05-06
+date: 2021-05-10
 ---
 
 # Cavensio-city
 
 Ventilation in a city apartment.
 
-TODO overview
-TODO diagram
+Overview
+![Overview diagram](/recources/cavensio-city-diagram-modules.png)
+
+Modules
+![Modules diagram](/resources/cavensio-city-diagram-overview.png)
 
 Source code repository [link](https://github.com/cavensio/cavensio-city)
 
