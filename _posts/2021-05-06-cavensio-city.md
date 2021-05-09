@@ -10,10 +10,10 @@ date: 2021-05-10
 Ventilation in a city apartment.
 
 Overview
-![Overview diagram](/recources/cavensio-city-diagram-modules.png)
+![Overview diagram](/resources/cavensio-city-diagram-overview.png)
 
 Modules
-![Modules diagram](/resources/cavensio-city-diagram-overview.png)
+![Modules diagram](/resources/cavensio-city-diagram-modules.png)
 
 Source code repository [link](https://github.com/cavensio/cavensio-city)
 
