@@ -1,21 +1,21 @@
 ---
-title: Cavensio-city
+title: Cavencity
 tags: [Arduino, Radio, RF24]
 desc: Ventilation in a city apartment
 date: 2021-05-10
 ---
 
-# Cavensio-city
+# Cavencity
 
 Ventilation in a city apartment.
 
 Overview
-![Overview diagram](/resources/cavensio-city-diagram-overview.png)
+![Overview diagram](/resources/cavencity-diagram-overview.png)
 
 Modules
-![Modules diagram](/resources/cavensio-city-diagram-modules.png)
+![Modules diagram](/resources/cavencity-diagram-modules.png)
 
-Source code repository [link](https://github.com/cavensio/cavensio-city)
+Source code repository [link](https://github.com/cavensio/cavencity)
 
 
 ## Master
@@ -24,7 +24,7 @@ TODO schema
 TODO photo
 
 Source code 
-[cavensio-city-master.ino](https://github.com/cavensio/cavensio-city/blob/master/cavensio-city-master/cavensio-city-master.ino)
+[cavencity-master.ino](https://github.com/cavensio/cavencity/blob/master/cavencity-master/cavencity-master.ino)
 
 
 Example
@@ -45,7 +45,7 @@ TODO schema
 TODO photo
 
 Source code 
-[cavensio-city-slave.ino](https://github.com/cavensio/cavensio-city/blob/master/cavensio-city-slave/cavensio-city-slave.ino)
+[cavencity-slave.ino](https://github.com/cavensio/cavencity/blob/master/cavencity-slave/cavencity-slave.ino)
 
 ## TODO
 
