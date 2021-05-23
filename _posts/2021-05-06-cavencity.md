@@ -2,30 +2,31 @@
 title: Cavencity
 tags: [Arduino, Radio, RF24]
 desc: Ventilation in a city apartment
-date: 2021-05-10
+date: 2021-05-23
 ---
 
 # Cavencity
 
 Ventilation in a city apartment.
 
-Overview
+##Overview
+
 ![Overview diagram](/resources/cavencity-diagram-overview.png)
 
-Modules
 ![Modules diagram](/resources/cavencity-diagram-modules.png)
 
-Source code repository [link](https://github.com/cavensio/cavencity)
+
+## Source code
+
+Repository [link](https://github.com/cavensio/cavencity)
 
 
-## Master
-
-TODO schema
-TODO photo
+## Master MCU
 
 Source code 
-[cavencity-master.ino](https://github.com/cavensio/cavencity/blob/master/cavencity-master/cavencity-master.ino)
+[cavencity_master.ino](https://github.com/cavensio/cavencity/blob/master/cavencity_master/cavencity_master.ino)
 
+TODO
 
 Example
 
@@ -39,13 +40,24 @@ const uint8_t RADIO_CE_PIN = 9;
 const uint8_t RADIO_CS_PIN = 10;
 ```
 
-## Slave
-
-TODO schema
-TODO photo
+## Slave MCU
 
 Source code 
-[cavencity-slave.ino](https://github.com/cavensio/cavencity/blob/master/cavencity-slave/cavencity-slave.ino)
+[cavencity_slave.ino](https://github.com/cavensio/cavencity/blob/master/cavencity_slave/cavencity_slave.ino)
 
-## TODO
+TODO
+
+## Desktop client
+
+Source code
+[link](https://github.com/cavensio/cavencity/tree/master/cavencity_desktop_client)
+
+TODO
+
+## Dummy master MCU
+
+Source code
+[cavencity_dummy_master.ino](https://github.com/cavensio/cavencity/blob/master/cavencity_master/cavencity_dummy_master.ino)
+
+TODO
 
