@@ -2,6 +2,7 @@
 title: Cavencity
 tags: [Arduino, Radio, RF24]
 desc: Ventilation in a city apartment
+category: product
 date: 2021-05-23
 ---
 
@@ -9,7 +10,8 @@ date: 2021-05-23
 
 Ventilation in a city apartment.
 
-##Overview
+## Overview
+TODO description
 
 ![Overview diagram](/resources/cavencity-diagram-overview.png)
 

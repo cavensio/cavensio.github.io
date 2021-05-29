@@ -19,7 +19,7 @@ In cooperation with experts in chemistry a microbiology we design and develop "p
 and combine them into complex systems.
 
 We are highly involved into the customer needs and practice both remote and on-site development all around the world.
-For example, on the last project our engineers made several trips to the Batu Caves in Malaysia in order
+For example, last time our engineers made several trips to the Batu Caves in Malaysia in order
 to dive into the problems of extremely large cave series and systems.
 And we hope to resume work trips when all this coronavirus hazard is over.
 Nevertheless, now we are investing more resources into research and preparation of new features.
