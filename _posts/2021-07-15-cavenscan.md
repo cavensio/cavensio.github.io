@@ -12,3 +12,7 @@ RF24 radio scanner.
 
 WIP.
 
+## Desktop client
+
+Source code
+[link](https://github.com/cavensio/cavenscan/tree/master/cavenscan_desktop_client)
