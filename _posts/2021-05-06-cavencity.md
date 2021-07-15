@@ -11,7 +11,7 @@ date: 2021-05-23
 Ventilation in a city apartment.
 
 ## Overview
-TODO description
+WIP.
 
 ![Overview diagram](/resources/cavencity-diagram-overview.png)
 
