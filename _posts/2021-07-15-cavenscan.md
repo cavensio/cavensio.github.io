@@ -10,6 +10,8 @@ date: 2021-07-15
 
 RF24 radio scanner.
 
+*WIP*
+
 ## Desktop client
 
 ![Python UI application](/resources/cavenscan-screenshot.png)
